@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg{
+  background-color: whitesmoke;
+}
+
+#tooltip{
+  visibility: hidden;
+  width: auto;
+  height: auto;
 }
